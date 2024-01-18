@@ -131,14 +131,6 @@ class ViewController: UIViewController {
         loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
     }
     
-//    private func setup LoginLabel() {
-//        view.addSubview(loginLabel)
-//
-//        loginLabel.snp.makeConstraints { make in
-//            make
-//        }
-//    }
-    
     private func editTf(tf: UITextField, devastate: Bool, placeholder: String, borderColor: UIColor, placeholderColor: UIColor) {
         if devastate == true {
             tf.text = ""
